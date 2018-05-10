@@ -27,4 +27,9 @@ func main() {
 	input = []int{9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 1}
 	MergeSort(input, 0, len(input))
 	fmt.Printf("Merge Sort Result:%v\n", input)
+
+	// 计数排序
+	input = []int{9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 1}
+	CountingSort(input)
+	fmt.Printf("Counting Sort Result:%v\n", input)
 }
